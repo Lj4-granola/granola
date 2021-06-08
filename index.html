@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <body>
+            <!-- The overlay -->
+        <div id="myNav" class="overlay">
+    
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">O projektu</a>
+          <a href="#">Deklaracija</a>
+          <a href="#">Zakaj naša granola?</a>
+          <a href="#">Recept</a>
+        </div>
+      
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <div onclick="openNav()" class="navigation">
+      <!--<div class="ml">-->
+        <span><img src="logo.png" alt="logo" class="logo"></span>
+      <div class="meni">MENI</div><!--</div>-->
+      <img src="divjiGolobi.png" alt="divjiGolobi" class="dg">
+    </div>
+      <script>
+          function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+      </script>
+      <h1>o skavtskem projektu</h1>
+        </body>
+    </html>
+    </body>
+</html>
