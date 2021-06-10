@@ -122,10 +122,24 @@
   width: 60px;
 }
 /*do tukaj je za tri črtice*/
+/*to so linki*/
+a:link {
+  color: #ffcc29;
+  /*text-decoration: none;*/
+}
+a:visited {
+  color: #f58634;
+  text-decoration: none;
+}
+a:hover {
+  color: #81b214;
+}
+/*do sem so linki*/
 /*to je za splošno*/
 h1 {
   color: #f58634;
   text-transform: uppercase;
+  align-self: center;
 }
 .tabela {
   display: flex;
@@ -134,18 +148,41 @@ h1 {
 }
 table {
   border: 2px solid #ffcc29;
+  border-bottom: 1px;
   
 }
 h2 {
   color: #81b214;
+  font-size: larger;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 th {
-
+  font-size: 25px;
 }
 td {
-
+  font-size: 25px;
 }
 .receptflex {
+  display: flex;
   justify-content: center;
   flex-direction: column;
+}
+p {
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+address {
+  font-size: 25px;
+}
+.recept {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 2px solid #ffcc29;
+}
+.informacije {
+  margin-left: 7%;
 }
