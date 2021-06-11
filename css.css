@@ -191,3 +191,21 @@ address {
 .informacije {
   margin-left: 7%;
 }
+li {
+  margin: 3px;
+}
+ul {
+  list-style-type: square;
+  margin: 10%;
+  margin-top: 0%;
+  font-size: 25px;
+  
+}/*
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}*/
